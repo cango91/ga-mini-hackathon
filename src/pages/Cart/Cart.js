@@ -5,9 +5,6 @@ import { useEffect, useState } from "react"
 import { getCart, setItemQtyInCart } from "../../utilities/orders-api"
 import Counter from "../../components/Counter/Counter"
 
-
-
-
 export function Cart({ setCartParent }) {
     const [cart, setCart] = useState([]);
 
